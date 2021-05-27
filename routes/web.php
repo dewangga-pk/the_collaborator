@@ -17,3 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::view('/trello','trello');
+Route::view('/project-list','projectList');

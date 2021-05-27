@@ -120,6 +120,12 @@
             <i class="fas fa-fw fa-table"></i>
             <span>Trello</span></a>
     </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/project-list">
+            <i class="fas fa-fw fa-table"></i>
+            <span>Project List</span>
+        </a>
+    </li>
 
     <!-- Divider -->
     <hr class="sidebar-divider d-none d-md-block">
