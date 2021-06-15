@@ -25,3 +25,4 @@ Route::view('/projects/project/board/detail','projects/detailTask');
 Route::view('/invoices','invoices/invoices');
 Route::view('/invoices/invoice','invoices/invoice');
 Route::get('/invoices/invoice/print_pdf','InvoiceController@print_pdf');
+Route::view('/invoices/create','invoices/formInvoice');

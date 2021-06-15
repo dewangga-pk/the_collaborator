@@ -8,8 +8,9 @@
 
     <!-- DataTales Example -->
     <div class="card shadow mb-4">
-        <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary">Invoices</h6>
+        <div class="card-header py-3 d-flex align-items-center justify-content-between">
+            <h4 class="m-0 font-weight-bold text-primary">Invoices</h4>
+            <a href="/invoices/create" class="btn btn-primary btn-sm"><i class="fa fa-fw fa-plus mr-1"></i>New Invoice</a>
         </div>
         <div class="card-body">
             <div class="table-responsive">
