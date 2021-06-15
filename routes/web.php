@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::view('/trello','trello');
-Route::view('/project-list','projectList');
-Route::view('/project/overview','projects/project');
-Route::view('/project/board','projects/projectboard');
+Route::view('/projects','projectList');
+Route::view('/projects/project/overview','projects/project');
+Route::view('/projects/project/board','projects/projectboard');
+Route::view('/projects/project/board/detail','projects/detailTask');
+
+Route::view('/invoices','invoices/invoices');
+Route::view('/invoices/invoice','invoices/invoice');

@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title-bar','Project Overview')
+@section('title-bar','Project Board')
 @section('content')
     @include('projects.projectNav')
     <div class="row mt-4">
@@ -24,7 +24,7 @@
                     <div class="card mb-1">
                         <!-- Card Header - Dropdown -->
                         <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                            <h6 class="m-0">Building Design</h6>
+                            <h6 class="m-0"><a href="/projects/project/board/detail" class="">Building Design</a></h6>
                             <div class="dropdown no-arrow">
                                 <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <i class="fas fa-caret-right fa-sm fa-fw text-gray-400"></i>

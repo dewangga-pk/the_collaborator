@@ -39,7 +39,7 @@
                                 <a href="#" class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" title="Delete">
                                     <i class="fas fa-fw fa-trash"></i>
                                 </a>
-                                <a href="/project/overview" class="btn btn-primary btn-circle btn-sm" data-toggle="tooltip" title="View">
+                                <a href="/projects/project/overview" class="btn btn-primary btn-circle btn-sm" data-toggle="tooltip" title="View">
                                     <i class="fas fa-fw fa-eye"></i>
                                 </a>
                             </td>
@@ -58,7 +58,7 @@
                                 <a href="#" class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" title="Delete">
                                     <i class="fas fa-fw fa-trash"></i>
                                 </a>
-                                <a href="/project/overview" class="btn btn-primary btn-circle btn-sm" data-toggle="tooltip" title="View">
+                                <a href="/projects/project/overview" class="btn btn-primary btn-circle btn-sm" data-toggle="tooltip" title="View">
                                     <i class="fas fa-fw fa-eye"></i>
                                 </a>
                             </td>
@@ -77,7 +77,7 @@
                                 <a href="#" class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" title="Delete">
                                     <i class="fas fa-fw fa-trash"></i>
                                 </a>
-                                <a href="/project/overview" class="btn btn-primary btn-circle btn-sm" data-toggle="tooltip" title="View">
+                                <a href="/projects/project/overview" class="btn btn-primary btn-circle btn-sm" data-toggle="tooltip" title="View">
                                     <i class="fas fa-fw fa-eye"></i>
                                 </a>
                             </td>

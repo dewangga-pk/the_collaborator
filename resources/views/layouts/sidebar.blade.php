@@ -28,17 +28,16 @@
     <div class="sidebar-heading">
         My Custom
     </div>
-
-{{--    <li class="nav-item">--}}
-{{--        <a class="nav-link" href="/trello">--}}
-{{--            <i class="fas fa-fw fa-table"></i>--}}
-{{--            <span>Board</span></a>--}}
-{{--    </li>--}}
-    <li class="nav-item {{ Request::segment(1) === 'project-list' ? 'active' : null }}">
-        <a class="nav-link" href="/project-list">
+    <li class="nav-item {{ Request::segment(1) === 'projects' ? 'active' : null }}">
+        <a class="nav-link" href="/projects">
             <i class="fas fa-fw fa-folder-open"></i>
             <span>Projects</span>
         </a>
+    </li>
+    <li class="nav-item {{ Request::segment(1) === 'invoices' ? 'active' : null }}">
+        <a class="nav-link" href="/invoices">
+            <i class="fas fa-fw fa-file-invoice"></i>
+            <span>Invoices</span></a>
     </li>
 
     <!-- Divider -->
